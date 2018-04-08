@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+.tmp
+.jshintrc
+app/public/images/misc/background.jpg
+app/public/images/misc/background.jpg

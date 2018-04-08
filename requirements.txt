@@ -1,0 +1,7 @@
+## Installing
+Make sure you have these installed
+	- [node.js](http://nodejs.org/)
+
+Run `> npm install -g nodemon` to install nodemod globally
+Run `> npm install` to install the project dependencies
+Run `> npm start` command to start the automation

@@ -1,0 +1,11 @@
+<article class="sidebar">
+  <h1 class="sidebar-title">Books on display</h1>
+  <p class="sidebar-body">While you read your favourite book, head over to our gallery where you can check out some of the books selected by our BookFace from our speakers.</p>
+  <div class="pixgrid clearfix">
+    <% if (books.length > 0) { %>
+    <% for (i=0; i< books.length; i++) { %>
+        <img src="/images/books/<%= books[i] %>" alt="Books <%= i %>">
+    <% } %>
+    <% } %>
+  </div>
+</article>
